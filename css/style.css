@@ -1,0 +1,94 @@
+body {
+  background-color: #a3b18a;
+}
+
+
+@keyframes myAnimation {
+  0%   {left:-20%; top:20%;}
+  25%  {left:25%; top:20%;}
+  50%  {left:50%; top:20%;}
+  100%  {left:75%; top:20%;}
+}
+.star {
+  width: 25%;
+  position: absolute;
+  z-index: 1;
+  animation-name: myAnimation;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.intro img {
+    display: block;
+    margin: auto;
+    width: 30%;
+    border-radius: 25%;
+    padding-top: 2%;
+    position: relative;
+    z-index: 2;
+}
+
+h1 {
+  color: #f2e8cf;
+  background-color: #588157;
+  text-align: center;
+  font-family: Garamond;
+  font-style: italic;
+  font-size: 400%;
+}
+
+p1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  font-family: Gregoria;
+  color: #344e41;
+  font-size: 20px;
+}
+
+p2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Gregoria;
+  color: #344e41;
+  font-size: 40px;
+  font-style: bold;
+  padding: 5px;
+}
+
+p3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Gregoria;
+  color: #344e41;
+  font-size: 20px;
+}
+
+.insert img {
+  float: right;
+  width: 15%;
+}
+
+.insert{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Gregoria;
+  color: #344e41;
+  font-size: 20px;
+}
+
+p4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Gregoria;
+  color: #344e41;
+  font-size: 20px;
+  padding-top: 15px;
+}
